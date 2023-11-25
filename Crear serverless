@@ -1,0 +1,2 @@
+serverless create --template aws-nodejs --path my-serverless-api
+cd my-serverless-api
