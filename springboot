@@ -1,0 +1,14 @@
+package com.example;
+
+import org.springframework.stereotype.Component;
+import java.util.function.Function;
+
+@Component
+public class MyApiFunction implements Function<String, String> {
+
+    @Override
+    public String apply(String input) {
+        String result = "Hola, " + input + "! Esta es una función Spring Boot en AWS Lambda.";
+        return result;
+    }
+}
