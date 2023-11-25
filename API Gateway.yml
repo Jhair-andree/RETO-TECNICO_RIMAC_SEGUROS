@@ -1,0 +1,14 @@
+service: my-serverless-api
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: us-east-1   # Cambia esto según tu región preferida
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - http:
+          path: /
+          method: any
