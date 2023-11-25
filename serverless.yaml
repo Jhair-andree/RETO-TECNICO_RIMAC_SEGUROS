@@ -1,0 +1,10 @@
+service: my-spring-boot-api
+
+provider:
+  name: aws
+  runtime: java11
+  region: us-east-1 
+
+functions:
+  myApi:
+    handler: com.example.MyApiFunction
