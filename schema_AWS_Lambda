@@ -1,0 +1,9 @@
+my-spring-boot-api/
+|-- src/
+|   |-- main/
+|       |-- java/
+|           `-- com/
+|               `-- example/
+|                   `-- MyApiApplication.java
+|-- pom.xml
+`-- ...
